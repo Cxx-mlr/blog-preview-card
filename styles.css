@@ -49,6 +49,7 @@ p {
 
 .blog-description {
   color: hsl(0, 0%, 42%);
+  line-height: 1.43rem;
 }
 
 .blog-title {
@@ -66,7 +67,7 @@ p {
 
 
 .blog-author {
-  margin: 10px 0 0 0;
+  margin: 18px 0 6px 0;
   display: flex;
   align-items: center;
   gap: 10px;
