@@ -1,0 +1,109 @@
+
+body {
+  font-family: "Figtree", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-weight: 500;
+}
+
+.blog-card-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.blog-card {
+  padding: 16px;
+  background-color: hsl(0, 0%, 100%);
+  width: 340px;
+  box-shadow: 8px 8px 0px 0px black;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.blog-tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 18px;
+}
+
+.blog-tags > li {
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  padding-block: 4px;
+  padding-inline: 8px;
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+.blog-description {
+  color: hsl(0, 0%, 42%);
+}
+
+.blog-title {
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  margin: 0;
+  font-size: 24.3px;
+}
+
+.blog-title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+
+
+.blog-author {
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.blog-author img {
+  width: 32px;
+  height: auto;
+}
+
+.blog-date {
+  font-size: 14px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 500;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+footer {
+  position: absolute;
+  bottom: 15px;
+  inset-inline: 0px;
+}
+
+@media (max-height: 590px) {
+  footer {
+    position: static;
+    padding-bottom: 15px;
+    padding-top: 20px;
+  }
+}
